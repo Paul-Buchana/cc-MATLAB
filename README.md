@@ -1,3 +1,11 @@
+OS Environment: Microsoft Windows
+
+NOTE: Make sure to change the file paths in the code appropriately upon forking the repo.
+
+Prerequisites:
+MATLAB should be installed.
+For executing the words_tweeted scrip, MATLAB's Parallel Computing Toolbox is required and should be installed.
+
 Creating Executable File:
 This can be done by typing deploytool at the MATLAB prompt and intuitively following the
 prompts.

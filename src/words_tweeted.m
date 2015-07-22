@@ -13,7 +13,8 @@ cd('C:\Users\pbuchana\Dropbox\cc-MATLAB\src');
 clear all; close all; clc;
 
 % Importing the text file containing tweets.
-fileID = fopen('C:\Users\pbuchana\Dropbox\cc-MATLAB\tweet_input\tweets.txt');
+fileID = fopen(strcat('C:\Users\pbuchana\Dropbox\cc-MATLAB\', ...
+    'tweet_input\tweets.txt'));
 formatSpec = '%s';
 tweetData = textscan(fileID, formatSpec, 'delimiter', ' ');
 
